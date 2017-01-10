@@ -1,6 +1,6 @@
 {
   "name": "filer_sf",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "the file operator",
   "main": "index.js",
   "scripts": {
