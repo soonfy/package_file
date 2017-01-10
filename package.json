@@ -1,0 +1,29 @@
+{
+  "name": "filer_sf",
+  "version": "0.0.1",
+  "description": "the file operator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node examples/demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/soonfy/soonfy_fileOperator.git"
+  },
+  "keywords": [
+    "file",
+    "operator",
+    "xlsx",
+    "csv"
+  ],
+  "author": "soonfy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soonfy/soonfy_fileOperator/issues"
+  },
+  "homepage": "https://github.com/soonfy/soonfy_fileOperator#readme",
+  "dependencies": {
+    "iconv-lite": "^0.4.13",
+    "xlsx": "^0.8.0"
+  }
+}
