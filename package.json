@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/soonfy/soonfy_fileOperator.git"
+    "url": "git+ssh://git@github.com/soonfy/soonfy_filer.git"
   },
   "keywords": [
     "file",
@@ -19,9 +19,9 @@
   "author": "soonfy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/soonfy/soonfy_fileOperator/issues"
+    "url": "https://github.com/soonfy/soonfy_filer/issues"
   },
-  "homepage": "https://github.com/soonfy/soonfy_fileOperator#readme",
+  "homepage": "https://github.com/soonfy/soonfy_filer#readme",
   "dependencies": {
     "iconv-lite": "^0.4.13",
     "xlsx": "^0.8.0"
