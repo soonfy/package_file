@@ -22,12 +22,13 @@ const path = require('path');
 // console.log(gstr);
 // operator.write(path.join(__dirname, '../assets/out5_gbk.csv'), gstr, 'gbk');
 
-const str = operator.read(path.join(__dirname, '../assets/in_xlsx.xlsx'));
+const str = operator.read(path.join(__dirname, '../assets/xlsx-in.xlsx'));
 console.log(str);
+// operator.write(path.join(__dirname, '../assets/xlsx-out.xlsx'))
 
 
-// let _str = [{name: 1, age: 2}, {name: 3, age: 4}]
+let _str = [{name: 1, age: 2}, {name: 3, age: 4}]
 // let _str = {name: 1, age: 2}
 // let _str = [['name','age'], ['as', '21'], ['a,s', '22']]
 // operator.write(path.join(__dirname, '../assets/out_gbk.csv'), _str, 'gbk');
-// operator.write(path.join(__dirname, '../assets/out_xlsx.xlsx'), _str);
+operator.write(path.join(__dirname, '../assets/xlsx-out.xlsx'), _str);
