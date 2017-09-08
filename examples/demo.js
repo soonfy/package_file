@@ -28,6 +28,14 @@ console.log(str);
 
 
 let _str = [{name: 1, age: 2}, {name: 3, age: 4}]
+_str = []
+let temp = [];
+let i = 0;
+while(i < 30){
+  temp.push(i);
+  i++;
+}
+_str.push(temp);
 // let _str = {name: 1, age: 2}
 // let _str = [['name','age'], ['as', '21'], ['a,s', '22']]
 // operator.write(path.join(__dirname, '../assets/out_gbk.csv'), _str, 'gbk');
